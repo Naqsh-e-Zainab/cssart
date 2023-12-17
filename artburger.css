@@ -1,0 +1,120 @@
+body {
+    background-color: bisque;
+}
+h1 {
+    font-family: 'Rubik Bubbles','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    text-align: center;
+    padding: 5px;
+}
+main {max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: lightgreen;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.box {
+    width: 500px;
+    margin: auto;
+    height: 300px;
+}
+.bread-top {
+    height: 20%;
+    width: 80%;
+    background-color: #e27b36;
+    border-radius:50% 50% 0 0;
+    box-shadow: inset -15px 0 #c15711;
+    margin:auto;
+    position: relative;
+}
+.seeds {
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    background-color: white;
+    left: 30%;
+    top: 50%;
+    border-radius: 40%;
+    transform: rotate(-20deg);
+    box-shadow: inset -2px -3px #c9c9c9;
+}
+.seeds:after {
+    content: "";
+    width: 100%;
+    height:100%;
+    position: absolute;
+    background-color: white;
+    left:-170%;
+    top: -260%;
+    border-radius: 40%;
+    transform: rotate(60deg);
+    box-shadow: inset 1x 2px #c9c9c9;
+}
+.seeds:before {
+    content: "";
+    width: 100%;
+    height:100%;
+    position: absolute;
+    background-color: white;
+    left:180%;
+    top: -50%;
+    border-radius: 40%;
+    transform: rotate(60deg);
+    box-shadow: inset -1x -3px #c9c9c9;
+}
+.seeds2 {
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    background-color: white;
+    left: 64%;
+    top: 50%;
+    border-radius: 40%;
+    transform: rotate(10deg);
+    box-shadow: inset -3px 0px #c9c9c9; 
+}
+.seeds2:after {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    content: "";
+    left: 150%;
+    top: -130%;
+    border-radius: 40%;
+    transform: rotate(90deg);
+    box-shadow: inset 1px 3px #c9c9c9; 
+}
+
+
+.cheese {
+    width: 90%;
+    height: 7%;
+    background-color: yellow;
+    margin: auto;
+    border-radius: 20px;
+}
+.meat {
+    width: 90%;
+    height: 7%;
+    background-color: red;
+    margin: auto;
+    border-radius: 20px;
+}
+.salad {
+    width: 90%;
+    height: 7%;
+    background-color: green;
+    margin:auto;
+    border-radius: 20px;
+}
+.bread-bottom {
+    height: 13%;
+    width: 80%;
+    background: #e27b36;
+    margin:  auto;
+    box-shadow: inset -15px 0 #c15711;
+    border-radius: 0 0 30px 30px;
+
+}
+
